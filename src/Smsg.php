@@ -108,7 +108,8 @@ class Smsg extends Controller
                 'mobiles' => $this->mobileNumber,
                 'message' => $this->message,
                 'sender' => $this->senderId,
-                'route' => $this->route
+                'route' => $this->route,
+                'unicode' => 1
             );
 
                 // init the curl resource
